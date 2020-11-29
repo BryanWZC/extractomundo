@@ -1,9 +1,11 @@
 {
   "name": "extractomundo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extracts links from a url or html file and downloads each of them within a specified file location",
   "main": "./index.js",
-  "bin": "./cli.js",
+  "bin": {
+    "extractomundo": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

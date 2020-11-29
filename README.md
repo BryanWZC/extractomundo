@@ -55,13 +55,14 @@ Options:
 
 ## API
 ### props
-Props define what and how the links are to be parsed and downloaded. There are 5 props that you need to take note of:
+Props define what and how the links are to be parsed and downloaded. There are 6 props that you need to take note of:
 | Props     | Definition                                                                                                                                                                                                                                                         |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | url       | Current url from which links will be extracted.                                                                                                                                                                                                                    |
 | htmlFile  | Html file to process. You **must** create a `html` folder within the root directory and add your html files there. For this field, just add the name of your html file and not including its path. **Specifying a htmlFile will take priority over the url field** |
 | path      | Path to file from which to download.                                                                                                                                                                                                                               |
 | selector  | CSS3 selector rule for selecting links from page.                                                                                                                                                                                                                  |
+| range     | Range to download links from. (Eg. [10,20] downloads links from index 10 to 20)                                                                                                                                                                                    |
 | increment | The number of files to be downloaded at any given time. Defaults to 10.                                                                                                                                                                                            |
 | append    | String to append at the end of every url.                                                                                                                                                                                                                          |
 
