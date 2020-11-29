@@ -1,0 +1,22 @@
+{
+  "name": "extractomundo",
+  "version": "1.0.0",
+  "description": "Extracts links from a url or html file and downloads each of them within a specified file location",
+  "main": "./index.js",
+  "bin": "./cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Wong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "yargs": "^16.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/BryanWZC/extractomundo/issues"
+  },
+  "homepage": "https://github.com/BryanWZC/extractomundo"
+}

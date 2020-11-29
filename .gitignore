@@ -1,0 +1,7 @@
+.vscode/*
+.env
+.glitch-assets
+node_modules/
+html/
+emundo.config.js
+test.js
